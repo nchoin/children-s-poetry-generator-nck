@@ -1,3 +1,9 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Visual studio  files
+.vscode
+
 # Logs
 logs
 *.log
