@@ -1,3 +1,31 @@
+:root{
+    --blue:#80A6B8;
+    --brown:#B89280;
+    --cream:#fefbef;
+    --deep-purple:#9280B8;
+    --green:#8AB880;
+    --lt-blue:#EBF5FA;
+    --lt-brown:#F6F2EF;
+    --lt-green:#edfcea;
+    --lt-lavender:#F5EFF6;
+    --lt-mauve:#B880A6;
+    --mauve:#ae80b8;
+    --md-mauve:#995FA6;
+    --ltpurple-gradient: linear-gradient( 106.5deg, rgba(174, 128, 184, .91)23%, rgba(146, 128, 184, 0.8)93% );
+    --purple-gradient: linear-gradient( 106.5deg, rgb(174, 128, 184)23%, rgb(146, 128, 184)93% );
+   
+}
 body{
-    background: pink;
+    background: var(--purple-gradient);
+
+}
+h1{
+    color: var(--cream);
+
+}
+footer{
+    color: var(--lt-green);
+}
+footer a{
+    color: var(--lt-brown);
 }
