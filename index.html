@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Children's Poetry Generator</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="shortcut icon" href="images/favicon-initials.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-initials.jpg"
+      type="image/x-icon"
+    />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-</head>
-<body>
-    <h1>Do you need a poem to share with children?</h1>
+  </head>
+  <body>
+    <header>
+      <h1>AI Poems for Children Generator</h1>
+    </header>
 
+    <main id="poem-container">
+      <!-- form to enter poetry topic -->
+      <form action="">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter a topic for your poem."
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <div id="">
+        the poem will go here
+        <br />
+        witha  break between lines
+      </div>
+    </main>
 
     <footer>
-<p>This AI project was coded by <a href="https://github.com/nchoin" target="_blank">Nicole Choiniere-Kroeker</a> and is open-sourced on <a href="https://github.com/nchoin/children-s-poetry-generator-nck" target="_blank">GitHub</a> and hosted on <a href="https://ai-generated-poetry-for-children-nck.netlify.app/" target="_blank">Netlify</a> </p>
-
+      <p id="footer">
+        This AI project was coded by
+        <a href="https://github.com/nchoin" target="_blank"
+          >Nicole Choiniere-Kroeker</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/nchoin/children-s-poetry-generator-nck"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a
+          href="https://ai-generated-poetry-for-children-nck.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </p>
     </footer>
-
 
     <!-- Link to js file -->
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
