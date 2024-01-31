@@ -17,7 +17,7 @@ function generatePoem(event) {
   let apiKey = "6bccfefa354f0f4do4245dc0a56fata0";
   let prompt = `User instructions: generate a poem about ${poemTopic.value}`;
   let context =
-    "You are an AI master poet. You create poems for people ages five to eleven years old. Sometimes your poems are funny. Most of the time your poems rhyme. Your mission is to generate a poem no longer than 8 lines formatted in basic HTML. Make sure to follow the user's instructions. Do not include a title. Sign the poem with 'by SheCodes AI' inside a <strong> element at the end of the poem.";
+    "You are an AI master poet. You create poems for people ages five to eleven years old. Sometimes your poems are funny. Most of the time your poems rhyme. Your mission is to generate a poem that is 4 to 8 lines long formatted in basic HTML. Make sure to follow the user's instructions. Do not include a title. Sign the poem with 'by SheCodes AI' inside a <strong> element at the end of the poem.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   console.log("getting the API") 
   console.log(`${prompt}`);
