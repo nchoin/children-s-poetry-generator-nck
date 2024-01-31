@@ -3,8 +3,8 @@
   --brown: #b89280;
   --cream: #fefbef;
   --deep-purple: #9280b8;
-  --dk-purple:#42208a;
-  --dk-brown:#7A5544;
+  --dk-purple: #42208a;
+  --dk-brown: #7a5544;
   --green: #8ab880;
   --lt-blue: #ebf5fa;
   --lt-brown: #f6f2ef;
@@ -30,7 +30,10 @@
   );
 }
 body {
-  background: var(--purple-gradient);
+  /* background-image: url('/images/pencilsunsplash.jpg');
+    background-repeat: no-repeat; */
+
+  background: var(--md-mauve);
   /* font-family: 'Acme', sans-serif; */
   /* font-family: 'Shadows Into Light Two', cursive; */
 }
@@ -51,52 +54,49 @@ main {
   padding: 20px;
   box-shadow: 5px 5px 10px var(--lt-lavender);
 }
+form {
+  display: flex;
+}
+#poem-topic {
+  font-family: "Delius", serif;
+  font-size: 1em;
+  width: 80%;
 
-#poem-topic{
-    font-family: 'Delius', serif;
-    font-size: 1em;
-    min-width: 300px;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid var(--brown);
-    background: var(--lt-brown);
-    color:var(--brown);
-    box-shadow: 3px 3px 5px var(--brown);
-    display: block;
-    margin: 2px auto;
-    text-align: center;
-
+  border-radius: 5px;
+  border: 1px solid var(--brown);
+  background: var(--lt-brown);
+  color: var(--brown);
+  box-shadow: 3px 3px 5px var(--brown);
+  margin: 2px 2px 2px 10px;
+  text-align: center;
 }
 
-.button{
-    background: var(--brown);
-    display: block;
-    margin:5px auto 10px;
-    padding: 8px;
-    min-width: 70px;
-    border-radius: 5px;
-    font-family: 'Delius', serif;
-    font-size: 1em;
-    color: var(--lt-brown);
-    border: none;
-    box-shadow: 3px 3px 5px var(--deep-purple);
+.button {
+  background: var(--dk-brown);
+  margin: 2px 5px 2px;
+  padding: 10px 15px;
+  max-width: 40%;
+  border-radius: 5px;
+  font-family: "Delius", serif;
+  font-size: 1em;
+  color: var(--lt-brown);
+  border: none;
+  box-shadow: 3px 3px 5px var(--brown);
 }
 
-#ai-poem{
-    text-align: center;
-    font-family: 'Delius', serif;
-    font-size: 1.3em;
-    line-height: 2.0;
-    color: var(--dk-brown);
-    margin: 10px 0 5px;
-
+#ai-poem {
+  font-family: "Delius", serif;
+  font-size: 1.3em;
+  line-height: 2;
+  color: var(--dk-brown);
+  margin: 25px 10px 5px;
 }
 #footer {
   color: var(--cream);
   text-align: center;
   font-family: "Comic Neue", serif;
   font-weight: 700;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 #footer a {
   color: var(--dk-purple);
