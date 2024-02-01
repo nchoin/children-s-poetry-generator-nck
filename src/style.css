@@ -37,8 +37,9 @@ body {
   background: var(--silver);
   padding-bottom: 20px;
 padding-top: 10px;
-  margin-bottom: 0px;
+  margin: 10px auto 0px;
   border-radius: 50px 50px 10px 10px;
+  max-width: 600px;
 }
 main {
   margin: 0px auto 5px;
