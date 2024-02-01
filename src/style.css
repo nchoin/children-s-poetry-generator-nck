@@ -31,7 +31,7 @@ body {
 .title {
   color: var(--dk-brown);
   font-family: "Delius", serif;
-  font-size: 2.5em;
+  font-size: 1.5em;
   text-align: center;
   font-weight: 700;
   background: var(--silver);
@@ -56,7 +56,7 @@ form {
 }
 #poem-topic {
   font-family: "Delius", serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   width: 80%;
   border-radius: 5px;
   border: 1px solid var(--brown);
@@ -87,8 +87,8 @@ form {
 }
 #ai-poem {
   font-family: "Caveat", serif;
-  font-size: 1.5em;
-  line-height: 1.5;
+  font-size: 1.2em;
+  line-height: 1.2;
   color: var(--grey);
   margin: 25px 10px 5px;
   padding-top: 5px;
@@ -116,25 +116,26 @@ form {
   color: var(--lt-green);
   font-weight: 700;
 }
-/* @media screen and (min-width: 430px) {
-  h1{
-    font-size: 2.8em;
+@media screen and (min-width: 430px) {
+  .title{
+    font-size: 2.0em;
   }
-  h2 {
-    font-size: 1.8em;
+ #poem-topic {
+    font-size: 1.5em;
   }
-  .time {
-    font-size: 2.3em;
+  #ai-poem{
+    font-size: 1.5em;
+    line-height:1.5;
   }
 }
 @media screen and (min-width: 600px) {
-  h1{
-    font-size: 3.5em;
-  }
-  h2 {
+  .title{
     font-size: 2.5em;
   }
-  .time {
-    font-size: 3em;
+  #poem-topic {
+    font-size: 2em;
   }
-} */
+  #ai-poem{
+    font-size: 2em;
+  }
+}
