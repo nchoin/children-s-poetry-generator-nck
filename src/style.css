@@ -56,7 +56,7 @@ form {
 }
 #poem-topic {
   font-family: "Delius", serif;
-  font-size: 1.2em;
+  font-size: .8em;
   width: 80%;
   border-radius: 5px;
   border: 1px solid var(--brown);
